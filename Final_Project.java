@@ -296,7 +296,7 @@ public class Final_Project {
             System.out.print("Enter new passport number (Current: " +
                              (reservation.getPassenger().getPassportNumber() != null ? 
                               reservation.getPassenger().getPassportNumber() : "None") + 
-                             ") or press Enter to keep current: ");
+                             "): ");
             String newPassportNumber = scanner.nextLine().trim();
             if (!newPassportNumber.isEmpty()) {
                 reservation.getPassenger().setPassportNumber(newPassportNumber);
