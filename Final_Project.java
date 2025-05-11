@@ -264,7 +264,7 @@ public class Final_Project {
         do {
             System.out.print("Enter new contact number (Current: " + 
                              reservation.getPassenger().getContactNumber() + 
-                             ") or press Enter to keep current: ");
+                             "): ");
             contactNumber = scanner.nextLine().trim();
             if (contactNumber.isEmpty()) {
                 validNumber = true; // Keep current
@@ -281,7 +281,7 @@ public class Final_Project {
         do {
             System.out.print("Enter new age (Current: " + 
                              reservation.getPassenger().getAge() + 
-                             ") or press Enter to keep current: ");
+                             "): ");
             String newAge = scanner.nextLine().trim();
             if (newAge.isEmpty()) {
                 validAge = true; // Keep current
